@@ -14,6 +14,17 @@ Users can build smooth connected tracks and animate a ball and sprite moving alo
 
 ---
 
+## 🕹️ How To Use
+
+- **L** → Add a line segment (DDA)  
+- **C** → Add a circular arc (with tangent connections)  
+- **B** → Add a Bézier curve segment  
+- **↑ / ↓** → Modify the last segment (length, radius, or control-point height)  
+- **SPACE** → Start the animation (object moves along the constructed path)  
+- **S** → Increase animation speed  
+
+---
+
 ## ⚙️ Technical Details
 
 - **Language:** C#  
@@ -28,16 +39,6 @@ Users can build smooth connected tracks and animate a ball and sprite moving alo
 
 ---
 
-## 🕹️ How To Use
-
-- **L** → Add a line segment (DDA)  
-- **C** → Add a circular arc (with tangent connections)  
-- **B** → Add a Bézier curve segment  
-- **↑ / ↓** → Modify the last segment (length, radius, or control-point height)  
-- **SPACE** → Start the animation (object moves along the constructed path)  
-- **S** → Increase animation speed  
-
----
 
 ## 🎮 Game Environment
 
